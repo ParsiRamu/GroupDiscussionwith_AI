@@ -9,7 +9,7 @@ from datetime import datetime
 app = Flask(__name__)
 app.secret_key = "bkheifogihgregbeboeiebnvoegijroekegiehgorjgoergh"
 # Configure Gemini API
-genai.configure(api_key="AIzaSyAl5u3iZmGtKeEmiq8gHIIE9HtzEGBWsSo")  # Replace with your actual Gemini API key
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))  # Replace with your actual Gemini API key
 # List of random names for bots
 BOT_NAMES = [
     "Alex", "Sofia", "Liam", "Emma", "Noah", "Olivia", "Ava", "Ethan",
