@@ -29,7 +29,7 @@ SUGGESTED_TOPICS = [
 # Store for managing bot response context
 bot_response_context = {}
 @app.route('/')
-def home():
+def home(): 
     return redirect(url_for('topic_selection'))
 @app.route('/index')
 def index():
