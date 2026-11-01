@@ -1,8 +1,38 @@
 # Group Discussion AI
 
 A local Flask application for practicing group discussions with four AI participants. Choose a suggested topic or enter your own, then discuss using text or your microphone.
+# Start Group Discussion AI Application
 
-## Requirements
+Open VS Code Terminal
+        ↓
+Navigate to the project folder
+        ↓
+cd "C:\Users\ramup\OneDrive\Documents\basicprojects\GDAI\Group_Discussion_AI\Major project"
+        ↓
+Activate Virtual Environment
+        ↓
+.\venv\Scripts\Activate.ps1
+        ↓
+Set Gemini API Key
+        ↓
+$env:GEMINI_API_KEY = "your_api_key"
+        ↓
+Start Flask Application
+        ↓
+python app.py
+        ↓
+Open Browser
+        ↓
+http://localhost:5000
+        ↓
+Application Started Successfully! 🚀
+        ↓
+To Stop the Application
+        ↓
+Press Ctrl + C
+
+
+##  Requirements 
 
 - Python 3
 - A Gemini API key
@@ -74,7 +104,7 @@ The app starts four AI participants for each discussion. AI replies are generate
 
 ## Stop the application
 
-In the terminal running Flask, press `Ctrl+C`.
+In the terminal running Flask, press `Ctrl+C`.  
 
 ## Troubleshooting
 
@@ -83,3 +113,6 @@ In the terminal running Flask, press `Ctrl+C`.
 - **Microphone input does not work:** Allow microphone access for the local site in your browser. Text input can be used instead.
 
 This project starts Flask in debug mode for local development. Do not expose the development server to the public internet.
+
+
+
