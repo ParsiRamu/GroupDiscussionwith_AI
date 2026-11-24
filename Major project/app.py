@@ -1,13 +1,24 @@
 
 from flask import Flask, render_template, request, session, jsonify, make_response, redirect, url_for
+from dotenv import load_dotenv
 import google.generativeai as genai
 import os
 import time
 import random
 import json
 from datetime import datetime
+
+load_dotenv()
+
+# Verify API key
+if os.getenv("GEMINI_API_KEY"):
+    print("Gemini API key loaded successfully!")
+else:
+    print("Gemini API key not found!")
+
 app = Flask(__name__)
 app.secret_key = "bkheifogihgregbeboeiebnvoegijroekegiehgorjgoergh"
+
 # Configure Gemini API
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))  # Replace with your actual Gemini API key
 # List of random names for bots
