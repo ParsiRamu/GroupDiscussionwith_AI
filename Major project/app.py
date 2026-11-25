@@ -182,7 +182,7 @@ Make a brief comment to re-engage the group. Keep it to 15-25 words."""
             
 Recent conversation:
 {conversation_context}
-The last person said: "{user_input}"
+The last person said: "{user_input}" 
 Respond by {action_phrase}. Keep your response:
 - 15-25 words maximum
 - Conversational and natural

@@ -1,6 +1,7 @@
 # Group Discussion AI
 
 A local Flask application for practicing group discussions with four AI participants. Choose a suggested topic or enter your own, then discuss using text or your microphone.
+
 # Start Group Discussion AI Application
 
 Open VS Code Terminal
@@ -94,7 +95,7 @@ When the terminal reports that the app has started, open [http://localhost:5000]
 ## Start your first discussion
 
 1. On the welcome page, select **START**.
-2. Choose one of the suggested topics, or choose **Custom** and enter a topic.
+2. Choose one of the suggested topics, or choose **Custom(create own topic)** and enter a topic.
 3. Enter your name and select **Start GD**.
 4. On the discussion page, select **Start** to begin.
 5. Contribute by typing a message or using the microphone. If you use the microphone, allow microphone access when your browser asks.
